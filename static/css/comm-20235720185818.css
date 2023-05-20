@@ -1,0 +1,51 @@
+
+
+/* 
+ * Project Name:重庆城市职业学院
+ * 
+ */
+.ic1title {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.ildate {
+	display: block;
+	color: #707070;
+	font-size: 12px;
+}
+
+.idnew {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 15px;
+	background: url(../image/new.png) no-repeat;
+	background-size: contain;
+	margin-left: 10px;
+}
+
+.i1nr {
+	height: 107px;
+	box-sizing: border-box;
+}
+
+.itw {
+	display: block;
+	float: left;
+	width: 80%;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.itnew {
+	display: block;
+	float: right;
+}
+
+.hllabel {
+	width: auto !important;
+	height: auto !important;
+	background: none !important;
+}

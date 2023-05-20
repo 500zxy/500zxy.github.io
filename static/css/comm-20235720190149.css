@@ -1,0 +1,67 @@
+
+
+/* 
+ * Project Name:重庆城市职业学院
+ * 
+ */
+.ibnew{
+	display: block;
+	float: right;
+	width: 30px;
+	height: 15px;
+	background: url(../image/new.png) no-repeat;
+	background-size: contain;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.ilicont{
+	padding: 0 20px 0 0;
+}
+.icdesc{
+	display: block;
+    float: left;
+    width: 65%;
+    margin-left: 20px;
+    color: #000000;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 1.5;
+    height: 54px;
+    overflow: hidden;
+    margin-top: 15.5px;
+}
+.irtitle{
+	margin-top: 40px;
+}
+.ibdesc{
+	float: left;
+	width: 65%;
+	margin-left: 20px;
+}
+@media screen and (max-width: 640px) {
+	.icdesc{
+		width: 60%;
+		margin-top: 5px;
+		font-size: 16px;
+		height: 48px;
+	}
+	.nddy{
+		font-size: 12px !important;
+	}
+}
+.nddy{
+	display: inline-block;
+	color: #747474;
+	font-size: 14px;
+}
+.nddy i{
+	display: inline-block;
+	vertical-align: middle;
+	color: #999;
+	font-size: 22px;
+	margin-left: 5px;
+}
+.nddy:hover,.nddy:hover i{
+	color: #DE0022;
+}
